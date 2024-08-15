@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.article header {
+    color: gray;
+}
+
+body > header {
+    background-color: rgb(20, 23, 31);
+    padding: 35px 0;
+    color: azure;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+header li {
+    display: inline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 15px;
+}
+
+header li a {
+    color: azure;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.article article img {
+    height: 180px;
+}
+
+.article article {
+    width: 45%;
+}
+
+.article article a:hover {
+    color: black;
+}
+
+section {
+    padding: 20px 0;
+}
+
+section h2 {
+    padding-bottom: 10px;
+}
+
+.article article h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.article article a {
+    background-color: rgba(36, 68, 83, 0.959);
+    color: azure;
+    padding: 7px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.article article p,
+.article article h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.article article a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container h2 {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-style: inherit;
+    font-size: 25px;
+}
+
+#economy {
+    background-color: rgb(241, 246, 255);
+}
+
+#sport {
+    background-color: rgb(243, 238, 255);
+}
+
+#tecnology {
+    background-color: rgb(255, 202, 171);
+}
+
+#entert {
+    background-color: rgb(238, 255, 255);
+}
